@@ -38,16 +38,6 @@ Feature codes refer to the functional requirements in the PRD (F1 Auth and roles
 | 17 | `17-receipt.png` | Receipt | Landlord, Tenant | F5 |
 | 18 | `18-admin-templates.png` | Admin: agreement templates (desktop) | Admin | F6 |
 
-### Desktop versions
-
-| File | Screen |
-|---|---|
-| `05-tenant-dashboard-desktop.png` | Tenant dashboard |
-| `06-landlord-dashboard-desktop.png` | Landlord dashboard |
-| `08-agreement-builder-desktop.png` | Agreement builder |
-| `14-evidence-vault-desktop.png` | Evidence Vault |
-| `15-money-ledger-desktop.png` | Rent ledger |
-
 ### Planned screens (designed, not built yet)
 
 | # | File | Screen | Feature |
