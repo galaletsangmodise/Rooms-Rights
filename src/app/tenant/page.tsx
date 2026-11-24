@@ -6,6 +6,7 @@ import { agreementStatus } from "@/lib/agreement";
 import { currentHourInJohannesburg, greetingForHour } from "@/lib/greeting";
 import { btnPrimary, cardCls } from "@/lib/ui";
 import { StatusChip } from "@/components/StatusChip";
+import { TenantMoneyCard } from "@/components/TenantMoneyCard";
 import type { AgreementRow } from "@/components/AgreementList";
 
 export default async function TenantHome() {
@@ -34,6 +35,8 @@ export default async function TenantHome() {
       </header>
 
       <div className="mx-auto -mt-10 max-w-3xl space-y-4 px-5">
+        <TenantMoneyCard />
+
         {agreement ? (
           <Link href={`/tenant/agreements/${agreement.id}`} className={`${cardCls} block`}>
             <div className="flex items-center justify-between">
