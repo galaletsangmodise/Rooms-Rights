@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { DoorOpen, FileText, FolderOpen, Home, User, type LucideIcon } from "lucide-react";
+import { DoorOpen, FileText, FolderOpen, Home, User, Wallet, type LucideIcon } from "lucide-react";
 
 type NavItem = { href: string; label: string; icon: LucideIcon };
 
@@ -17,6 +17,7 @@ const NAV: Record<"landlord" | "tenant", NavItem[]> = {
     { href: "/tenant", label: "Home", icon: Home },
     { href: "/tenant/agreements", label: "Agreements", icon: FileText },
     { href: "/tenant/vault", label: "Vault", icon: FolderOpen },
+    { href: "/tenant/money", label: "Rent", icon: Wallet },
     { href: "/tenant/profile", label: "Profile", icon: User },
   ],
 };
