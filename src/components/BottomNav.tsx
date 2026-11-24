@@ -17,7 +17,7 @@ const NAV: Record<"landlord" | "tenant", NavItem[]> = {
     { href: "/tenant", label: "Home", icon: Home },
     { href: "/tenant/agreements", label: "Agreements", icon: FileText },
     { href: "/tenant/vault", label: "Vault", icon: FolderOpen },
-    { href: "/tenant/money", label: "Rent", icon: Wallet },
+    { href: "/tenant/money", label: "Money", icon: Wallet },
     { href: "/tenant/profile", label: "Profile", icon: User },
   ],
 };
@@ -29,7 +29,7 @@ export function BottomNav({ role }: { role: "landlord" | "tenant" }) {
   return (
     <nav
       aria-label="Main"
-      className="fixed inset-x-0 bottom-0 z-10 border-t border-tan bg-cream-light print:hidden"
+      className="fixed inset-x-0 bottom-0 z-10 rounded-t-2xl border-t border-tan bg-cream-light shadow-[0_-4px_16px_rgba(42,27,23,0.08)] print:hidden"
     >
       <ul className="mx-auto flex max-w-3xl">
         {items.map(({ href, label, icon: Icon }) => {
@@ -43,7 +43,7 @@ export function BottomNav({ role }: { role: "landlord" | "tenant" }) {
                   active ? "text-maroon" : "text-ink-soft"
                 }`}
               >
-                <Icon size={22} />
+                <Icon size={22} strokeWidth={active ? 2.5 : 2} />
                 {label}
               </Link>
             </li>

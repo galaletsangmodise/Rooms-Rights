@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
@@ -22,6 +23,17 @@ export default async function LoginPage({
       <Link href={isSignup ? "/role" : "/"} aria-label="Back" className="inline-block p-1">
         <ArrowLeft />
       </Link>
+
+      {signupRole && (
+        <Image
+          src={`/images/scene-${signupRole}.webp`}
+          alt=""
+          width={900}
+          height={600}
+          priority
+          className="mt-4 h-44 w-full rounded-2xl object-cover object-[50%_20%]"
+        />
+      )}
 
       <h1 className="mt-6 text-3xl font-extrabold">
         {isSignup ? "Create your account." : "Welcome back."}
