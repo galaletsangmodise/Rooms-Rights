@@ -2,20 +2,21 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { DoorOpen, Home, User, type LucideIcon } from "lucide-react";
+import { DoorOpen, FileText, Home, User, type LucideIcon } from "lucide-react";
 
 type NavItem = { href: string; label: string; icon: LucideIcon };
 
-// Only show tabs for pages that exist. Add the rest as you build them:
-//   Phase 3: Agreements (FileText)   Phase 5: Money (Wallet)
+// Add the Money tab in Phase 5 and the tenant Vault tab in Phase 4.
 const NAV: Record<"landlord" | "tenant", NavItem[]> = {
   landlord: [
     { href: "/landlord", label: "Home", icon: Home },
     { href: "/landlord/rooms", label: "Rooms", icon: DoorOpen },
+    { href: "/landlord/agreements", label: "Agreements", icon: FileText },
     { href: "/landlord/profile", label: "Profile", icon: User },
   ],
   tenant: [
     { href: "/tenant", label: "Home", icon: Home },
+    { href: "/tenant/agreements", label: "Agreements", icon: FileText },
     { href: "/tenant/profile", label: "Profile", icon: User },
   ],
 };
@@ -27,7 +28,7 @@ export function BottomNav({ role }: { role: "landlord" | "tenant" }) {
   return (
     <nav
       aria-label="Main"
-      className="fixed inset-x-0 bottom-0 z-10 border-t border-tan bg-cream-light"
+      className="fixed inset-x-0 bottom-0 z-10 border-t border-tan bg-cream-light print:hidden"
     >
       <ul className="mx-auto flex max-w-3xl">
         {items.map(({ href, label, icon: Icon }) => {
