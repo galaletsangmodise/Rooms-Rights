@@ -4,6 +4,8 @@ import { createClient } from "@/lib/supabase/server";
 import { btnOutline, btnPrimary, cardCls } from "@/lib/ui";
 import { RoomCard } from "@/components/RoomCard";
 
+export const metadata = { title: "Rooms" };
+
 type PropertyRow = {
   id: string;
   name: string;
@@ -44,7 +46,7 @@ export default async function RoomsPage() {
               {activeRooms.length === 0 ? (
                 <p className="text-sm text-ink-soft">No rooms in this property yet.</p>
               ) : (
-                <div className="space-y-3">
+                <div className="grid gap-3 md:grid-cols-2">
                   {activeRooms.map((room) => (
                     <RoomCard
                       key={room.id}

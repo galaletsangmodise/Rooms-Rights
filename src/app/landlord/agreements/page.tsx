@@ -4,6 +4,8 @@ import { createClient } from "@/lib/supabase/server";
 import { btnPrimary } from "@/lib/ui";
 import { AgreementList, type AgreementRow } from "@/components/AgreementList";
 
+export const metadata = { title: "Agreements" };
+
 export default async function LandlordAgreementsPage() {
   const supabase = await createClient();
   const { data } = await supabase

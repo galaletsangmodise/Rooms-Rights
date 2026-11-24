@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Rooms&Rights",
+  title: { default: "Rooms&Rights", template: "%s · Rooms&Rights" },
   description: "Rent fairly. Live securely. Know your rights.",
 };
 
