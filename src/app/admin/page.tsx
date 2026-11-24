@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { cardCls } from "@/lib/ui";
 
@@ -27,6 +28,10 @@ export default async function AdminHome() {
           </div>
         ))}
       </div>
+
+      <Link href="/admin/templates" className="mt-6 inline-block font-bold text-maroon underline">
+        Manage the clause library
+      </Link>
     </>
   );
 }

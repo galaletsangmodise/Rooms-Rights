@@ -17,6 +17,10 @@ export default async function LandlordAgreementsPage() {
     <div className="mx-auto max-w-3xl space-y-6 px-5 pt-8">
       <h1 className="text-3xl font-extrabold">My Agreements</h1>
 
+      <Link href="/landlord/clauses" className="inline-block font-bold text-maroon underline">
+        Clause library
+      </Link>
+
       <AgreementList
         agreements={agreements}
         basePath="/landlord/agreements"
