@@ -4,8 +4,8 @@
 
 A mobile-first web app that helps landlords and tenants of backyard and backroom rooms in South African townships keep a written agreement, the room's documents and a rent record in one place. The landlord pays a small monthly fee per room. The tenant uses it free.
 
-- **Live app:** <ADD YOUR VERCEL LINK>
-- **Designs (Stitch):** <ADD YOUR STITCH PROJECT LINK>
+- **Live app:** [https://rooms-rights.vercel.app/]
+- **Designs (Stitch):** [https://stitch.google.com/projects/652628702472025550]
 - **Demo video (Loom):** <ADD YOUR LOOM LINK>
 - **Business plan:** [BUSINESS.md](BUSINESS.md)
 - **Product requirements:** [docs/PRD.md](docs/PRD.md)
