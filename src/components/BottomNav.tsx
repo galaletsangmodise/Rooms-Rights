@@ -2,11 +2,10 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { DoorOpen, FileText, Home, User, type LucideIcon } from "lucide-react";
+import { DoorOpen, FileText, FolderOpen, Home, User, type LucideIcon } from "lucide-react";
 
 type NavItem = { href: string; label: string; icon: LucideIcon };
 
-// Add the Money tab in Phase 5 and the tenant Vault tab in Phase 4.
 const NAV: Record<"landlord" | "tenant", NavItem[]> = {
   landlord: [
     { href: "/landlord", label: "Home", icon: Home },
@@ -17,6 +16,7 @@ const NAV: Record<"landlord" | "tenant", NavItem[]> = {
   tenant: [
     { href: "/tenant", label: "Home", icon: Home },
     { href: "/tenant/agreements", label: "Agreements", icon: FileText },
+    { href: "/tenant/vault", label: "Vault", icon: FolderOpen },
     { href: "/tenant/profile", label: "Profile", icon: User },
   ],
 };
