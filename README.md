@@ -11,8 +11,8 @@ Rooms&Rights helps backyard landlords and their tenants put their rental agreeme
 
 | | |
 |---|---|
-| **Live app** | `<ADD LIVE LINK>` |
-| **Stitch designs** | `<https://stitch.google.com/projects/652628702472025550>` |
+| **Live app** | [https://rooms-rights.vercel.app/] |
+| **Stitch designs** | [https://stitch.google.com/projects/652628702472025550] |
 | **Loom pitch and demo** | `<ADD LOOM LINK>` |
 | **Business plan** | [BUSINESS.md](./BUSINESS.md) |
 | **Product requirements** | [docs/PRD.md](./docs/PRD.md) |
