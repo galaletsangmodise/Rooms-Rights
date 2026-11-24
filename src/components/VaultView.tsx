@@ -54,7 +54,7 @@ export function VaultView({
           </p>
         </div>
       ) : (
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-3">
           {shown.map((doc) => (
             <DocumentCard
               key={doc.id}

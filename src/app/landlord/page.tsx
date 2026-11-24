@@ -8,6 +8,8 @@ import { formatRand } from "@/lib/format";
 import { btnPrimary, cardCls } from "@/lib/ui";
 import { RoomCard, type RoomRow } from "@/components/RoomCard";
 
+export const metadata = { title: "Dashboard" };
+
 export default async function LandlordHome() {
   const profile = await requireRole("landlord");
   const supabase = await createClient();

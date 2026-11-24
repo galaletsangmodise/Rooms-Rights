@@ -9,6 +9,8 @@ import { StatusChip } from "@/components/StatusChip";
 import { TenantMoneyCard } from "@/components/TenantMoneyCard";
 import type { AgreementRow } from "@/components/AgreementList";
 
+export const metadata = { title: "Home" };
+
 export default async function TenantHome() {
   const profile = await requireRole("tenant");
   const supabase = await createClient();

@@ -5,6 +5,8 @@ import { cardCls } from "@/lib/ui";
 import { LedgerList } from "@/components/LedgerList";
 import { MoneySummary } from "@/components/MoneySummary";
 
+export const metadata = { title: "My rent" };
+
 export default async function TenantMoneyPage() {
   const supabase = await createClient();
 

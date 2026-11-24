@@ -4,6 +4,8 @@ import { loadVault } from "@/lib/vault";
 import { cardCls } from "@/lib/ui";
 import { VaultView } from "@/components/VaultView";
 
+export const metadata = { title: "Evidence Vault" };
+
 export default async function TenantVaultPage({
   searchParams,
 }: {

@@ -9,6 +9,8 @@ import { LedgerList } from "@/components/LedgerList";
 import { MoneySummary } from "@/components/MoneySummary";
 import { PaymentForm } from "@/components/PaymentForm";
 
+export const metadata = { title: "Rent and deposit" };
+
 export default async function LandlordMoneyPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const supabase = await createClient();

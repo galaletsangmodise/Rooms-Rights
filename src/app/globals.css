@@ -21,3 +21,8 @@ body {
   color: var(--color-ink);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
+
+:focus-visible {
+  outline: 3px solid var(--color-orange);
+  outline-offset: 2px;
+}

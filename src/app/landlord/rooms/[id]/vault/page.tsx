@@ -6,6 +6,8 @@ import { isDocumentFilter } from "@/lib/documents";
 import { loadVault } from "@/lib/vault";
 import { VaultView } from "@/components/VaultView";
 
+export const metadata = { title: "Evidence Vault" };
+
 export default async function LandlordVaultPage({
   params,
   searchParams,

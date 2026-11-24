@@ -4,6 +4,8 @@ import { ArrowLeft } from "lucide-react";
 import { isSignupRole } from "@/lib/roles";
 import { AuthForm } from "./AuthForm";
 
+export const metadata = { title: "Log in" };
+
 export default async function LoginPage({
   searchParams,
 }: {
