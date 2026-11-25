@@ -26,11 +26,11 @@ These are demo accounts with sample data. Please do not enter real personal info
 
 | Landlord dashboard | Agreement | Invite code |
 |---|---|---|
-| ![Landlord dashboard](docs/screenshots/01-landlord-dashboard.png) | ![Agreement](docs/screenshots/02-agreement.png) | ![Invite](docs/screenshots/03-invite.png) |
+| ![Landlord dashboard](docs/screenshots/01-landlord-dashboard.png) | ![Agreement](docs/screenshots/02-agreement.jpg) | ![Invite](docs/screenshots/03-invite.jpg) |
 
 | Tenant home | Evidence Vault | Rent ledger | Receipt |
 |---|---|---|---|
-| ![Tenant home](docs/screenshots/04-tenant-home.png) | ![Vault](docs/screenshots/05-vault.png) | ![Ledger](docs/screenshots/06-ledger.png) | ![Landing Page](docs/screenshots/07-landing-page.png) |
+| ![Tenant home](docs/screenshots/04-tenant-home.png) | ![Vault](docs/screenshots/05-vault.png) | ![Ledger](docs/screenshots/06-ledger.png) | ![Landing Page](docs/screenshots/07-landing-page.jpg) |
 
 ## Features
 
