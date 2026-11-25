@@ -6,7 +6,7 @@ A mobile-first web app that helps landlords and tenants of backyard and backroom
 
 - **Live app:** [https://rooms-rights.vercel.app/]
 - **Designs (Stitch):** [https://stitch.google.com/projects/652628702472025550]
-- **Demo video (Loom):** <ADD YOUR LOOM LINK>
+- **Demo video (Loom):** [https://www.loom.com/share/08426ff5a52943eb9da8ce4203efcccd]
 - **Business plan:** [BUSINESS.md](BUSINESS.md)
 - **Product requirements:** [docs/PRD.md](docs/PRD.md)
 - **Implementation plan:** [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md)
@@ -30,7 +30,7 @@ These are demo accounts with sample data. Please do not enter real personal info
 
 | Tenant home | Evidence Vault | Rent ledger | Receipt |
 |---|---|---|---|
-| ![Tenant home](docs/screenshots/04-tenant-home.png) | ![Vault](docs/screenshots/05-vault.png) | ![Ledger](docs/screenshots/06-ledger.png) | ![Receipt](docs/screenshots/07-receipt.png) |
+| ![Tenant home](docs/screenshots/04-tenant-home.png) | ![Vault](docs/screenshots/05-vault.png) | ![Ledger](docs/screenshots/06-ledger.png) | ![Landing Page](docs/screenshots/07-landing-page.png) |
 
 ## Features
 
