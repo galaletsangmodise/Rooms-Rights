@@ -5,10 +5,10 @@ Screenshots of the live app, taken at phone size (375 px wide) and used in the m
 | File | Screen |
 |---|---|
 | `01-landlord-dashboard.png` | Landlord home with the room |
-| `02-agreement.png` | The agreement document |
-| `03-invite.png` | Invite code and QR |
+| `02-agreement.jpg` | The agreement document |
+| `03-invite.jgp` | Invite code and QR |
 | `04-tenant-home.png` | Tenant home with the rent card |
 | `05-vault.png` | Evidence Vault with files |
 | `06-ledger.png` | Rent and deposit ledger |
-| `07-landing-page.png` | The Landing Page |
-| `08-role-selection.png` | The role selection |
+| `07-landing-page.jpg` | The Landing Page |
+| `08-role-selection.jpg` | The role selection |
