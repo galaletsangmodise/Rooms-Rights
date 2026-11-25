@@ -10,5 +10,5 @@ Screenshots of the live app, taken at phone size (375 px wide) and used in the m
 | `04-tenant-home.png` | Tenant home with the rent card |
 | `05-vault.png` | Evidence Vault with files |
 | `06-ledger.png` | Rent and deposit ledger |
-| `07-receipt.png` | A receipt |
-| `08-ci-green.png` | GitHub Actions run, all checks green |
+| `07-landing-page.png` | The Landing Page |
+| `08-role-selection.png` | The role selection |
